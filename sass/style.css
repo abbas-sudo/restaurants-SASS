@@ -77,7 +77,7 @@ nav .navbar ol li:last-child:hover {
 
 .banner .hero-text h1, .banner .hero-text main .third-main .main-card .cards p, main .third-main .main-card .cards .banner .hero-text p, .banner .hero-text main .third-main .main-card .cards h3, main .third-main .main-card .cards .banner .hero-text h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 900;
 }
 
@@ -334,5 +334,230 @@ main .main-seven div {
 main .main-seven div a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-logo h1, .nav-logo main .third-main .main-card .cards p, main .third-main .main-card .cards .nav-logo p, .nav-logo main .third-main .main-card .cards h3, main .third-main .main-card .cards .nav-logo h3 {
+    width: 100%;
+  }
+  .banner {
+    height: 50vh;
+    color: white;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/image/hero.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/image/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner .hero-text {
+    width: 100%;
+    position: absolute;
+    top: 18%;
+    left: 0%;
+  }
+  .banner .hero-text h1, .banner .hero-text main .third-main .main-card .cards p, main .third-main .main-card .cards .banner .hero-text p, .banner .hero-text main .third-main .main-card .cards h3, main .third-main .main-card .cards .banner .hero-text h3 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  .banner .hero-text p, .banner .hero-text main .third-main .main-card .cards h3, main .third-main .main-card .cards .banner .hero-text h3 {
+    font-size: 10px;
+    text-align: center;
+  }
+  .banner .hero-text form {
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 20px;
+    height: 100vh;
+  }
+  main .left-div, main .third-main .top-text, main .main-four {
+    width: 38%;
+    margin: 0px auto;
+    margin-left: 10px !important;
+  }
+  main .left-div h1, main .third-main .top-text h1, main .main-four h1, main .left-div .third-main .main-card .cards p, main .third-main .main-card .cards .left-div p, main .third-main .top-text .main-card .cards p, main .third-main .main-card .cards .top-text p, main .main-four .third-main .main-card .cards p, main .third-main .main-card .cards .main-four p, main .left-div .third-main .main-card .cards h3, main .third-main .main-card .cards .left-div h3, main .third-main .top-text .main-card .cards h3, main .third-main .main-card .cards .top-text h3, main .main-four .third-main .main-card .cards h3, main .third-main .main-card .cards .main-four h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+  main .left-div p, main .third-main .top-text p, main .main-four p, main .left-div .third-main .main-card .cards h3, main .third-main .main-card .cards .left-div h3, main .third-main .top-text .main-card .cards h3, main .third-main .main-card .cards .top-text h3, main .main-four .third-main .main-card .cards h3, main .third-main .main-card .cards .main-four h3 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  main .left-div h3, main .third-main .top-text h3, main .main-four h3 {
+    font-family: "Poppins", sans-serif;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  main .right-div {
+    width: 40%;
+  }
+  main .right-div img {
+    width: 200px;
+    height: 200px;
+    margin: 70px 0px 0px -30px;
+  }
+  main .btn {
+    margin-top: 10px;
+    margin-left: -43px;
+    width: 150px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .btn img:first-child {
+    cursor: pointer;
+  }
+  main .btn img:last-child {
+    cursor: pointer;
+  }
+  main .top-text {
+    width: 100% !important;
+  }
+  main .top-text h1, main .top-text .third-main .main-card .cards p, main .third-main .main-card .cards .top-text p, main .top-text .third-main .main-card .cards h3, main .third-main .main-card .cards .top-text h3 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 30px !important;
+  }
+  main .main-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 20px;
+  }
+  main .main-card .cards {
+    width: 43% !important;
+    height: 60vh !important;
+    background-color: white;
+    margin: 30px 30px 0 0;
+    display: block;
+    border-radius: 20px;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+            box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+  }
+  main .main-card .cards img {
+    margin: 20px 0 0 15px !important;
+    width: 10px;
+    border-radius: 10px;
+  }
+  main .main-card .cards h1, main .third-main .main-card .cards p, main .third-main .main-card .cards h3 {
+    color: black;
+    margin: 30px 0 0 25px;
+    font-size: 15px !important;
+    font-weight: bold;
+  }
+  main .main-four {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+  }
+  main .main-four h1, main .main-four .third-main .main-card .cards p, main .third-main .main-card .cards .main-four p, main .main-four .third-main .main-card .cards h3, main .third-main .main-card .cards .main-four h3 {
+    font-size: 40px !important;
+  }
+  main .count {
+    width: 80%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+  main .count .count-container {
+    padding: 30px;
+    text-align: center;
+  }
+  main .count .count-container h1, main .count .count-container .third-main .main-card .cards p, main .third-main .main-card .cards .count .count-container p, main .count .count-container .third-main .main-card .cards h3, main .third-main .main-card .cards .count .count-container h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    color: #F6834D;
+  }
+  main .main-fifth {
+    width: 80%;
+    margin: auto;
+  }
+  main .main-fifth h1, main .main-fifth .third-main .main-card .cards p, main .third-main .main-card .cards .main-fifth p, main .main-fifth .third-main .main-card .cards h3, main .third-main .main-card .cards .main-fifth h3 {
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  main .main-fifth .cities {
+    margin-left: 0px;
+  }
+  main .main-fifth .cities i {
+    font-size: 10px;
+    color: #630505;
+    border-bottom: 1px solid gray;
+    padding: 20px;
+  }
+  main .main-fifth .cities i span {
+    color: black;
+    margin-left: 20px;
+  }
+  main .main-six {
+    width: 100%;
+    margin-top: 50px;
+    margin: auto;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  main .main-seven {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    padding-top: 0px;
+    background-color: #FFF7EF;
+    border-top: 1px solid gray;
+  }
+  main .main-seven div {
+    width: 100% !important;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 0px;
+  }
+  main .main-seven div img {
+    width: 200px;
+    height: 200px;
+  }
+  main .main-seven div h1, main .main-seven div .third-main .main-card .cards p, main .third-main .main-card .cards .main-seven div p, main .main-seven div .third-main .main-card .cards h3, main .third-main .main-card .cards .main-seven div h3 {
+    font-size: 25px;
+  }
+  main .main-seven div a {
+    font-family: "Noto Sans JP", sans-serif;
+    text-decoration: none;
+  }
+  main .main-seven div p, main .main-seven div .third-main .main-card .cards h3, main .third-main .main-card .cards .main-seven div h3 {
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
