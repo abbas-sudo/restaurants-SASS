@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+nav .nav-logo h1, nav .nav-logo main .third-main .main-card .cards p, main .third-main .main-card .cards nav .nav-logo p, nav .nav-logo main .third-main .main-card .cards h3, main .third-main .main-card .cards nav .nav-logo h3 {
+  margin: 15px 0px 0px 100px;
+  font-weight: bold;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav .nav-logo h1 span, nav .nav-logo main .third-main .main-card .cards p span, main .third-main .main-card .cards nav .nav-logo p span, nav .nav-logo main .third-main .main-card .cards h3 span, main .third-main .main-card .cards nav .nav-logo h3 span {
+  font-family: "Poppins", sans-serif;
+  color: #630505;
+  font-weight: 900;
+}
+
+nav .navbar {
+  color: white;
+  margin-left: 630px;
+}
+
+nav .navbar ol li {
+  list-style-type: none;
+  float: left;
+  padding: 20px;
+  font-weight: bold;
+}
+
+nav .navbar ol li:last-child {
+  width: 90px;
+  text-align: center;
+  border: 2px solid white;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+nav .navbar ol li:last-child:hover {
+  background-color: #630505;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.banner {
+  height: 100vh;
+  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/image/hero.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/image/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .hero-text {
+  width: 480px;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+.banner .hero-text h1, .banner .hero-text main .third-main .main-card .cards p, main .third-main .main-card .cards .banner .hero-text p, .banner .hero-text main .third-main .main-card .cards h3, main .third-main .main-card .cards .banner .hero-text h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.banner .hero-text p, .banner .hero-text main .third-main .main-card .cards h3, main .third-main .main-card .cards .banner .hero-text h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 20px;
+}
+
+.banner .hero-text form {
+  margin-top: 20px;
+}
+
+.banner .hero-text form input, .banner .hero-text form button {
+  padding: 10px;
+  width: 60%;
+  border: 2px solid #630505;
+  border-radius: 5px;
+}
+
+.banner .hero-text form button {
+  width: 25%;
+  background-color: #630505;
+  color: white;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+main .left-div, main .third-main .top-text, main .main-four {
+  width: 38%;
+  margin: 0px auto;
+}
+
+main .left-div h1, main .third-main .top-text h1, main .main-four h1, main .left-div .third-main .main-card .cards p, main .third-main .main-card .cards .left-div p, main .third-main .top-text .main-card .cards p, main .third-main .main-card .cards .top-text p, main .main-four .third-main .main-card .cards p, main .third-main .main-card .cards .main-four p, main .left-div .third-main .main-card .cards h3, main .third-main .main-card .cards .left-div h3, main .third-main .top-text .main-card .cards h3, main .third-main .main-card .cards .top-text h3, main .main-four .third-main .main-card .cards h3, main .third-main .main-card .cards .main-four h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+}
+
+main .left-div p, main .third-main .top-text p, main .main-four p, main .left-div .third-main .main-card .cards h3, main .third-main .main-card .cards .left-div h3, main .third-main .top-text .main-card .cards h3, main .third-main .main-card .cards .top-text h3, main .main-four .third-main .main-card .cards h3, main .third-main .main-card .cards .main-four h3 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+main .left-div h3, main .third-main .top-text h3, main .main-four h3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main .right-div {
+  width: 40%;
+}
+
+main .right-div img {
+  width: 90%;
+  height: 450px;
+  margin: 70px 0px 0px -30px;
+}
+
+main .btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+main .btn img:first-child {
+  margin-left: 150px;
+  cursor: pointer;
+}
+
+main .btn img:last-child {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+main .third-main {
+  width: 100%;
+  margin: auto;
+}
+
+main .third-main .top-text {
+  width: 45%;
+}
+
+main .third-main .top-text h1, main .third-main .top-text .main-card .cards p, main .third-main .main-card .cards .top-text p, main .third-main .top-text .main-card .cards h3, main .third-main .main-card .cards .top-text h3 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+main .third-main .top-text p, main .third-main .top-text .main-card .cards h3, main .third-main .main-card .cards .top-text h3 {
+  text-align: center;
+}
+
+main .third-main .main-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+main .third-main .main-card .cards {
+  width: 25%;
+  height: 70vh;
+  background-color: white;
+  margin: 30px 30px 0 0;
+  display: block;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+          box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+main .third-main .main-card .cards img {
+  margin: 20px 0 0 25px;
+  width: 85%;
+  border-radius: 18px;
+}
+
+main .third-main .main-card .cards h1, main .third-main .main-card .cards p, main .third-main .main-card .cards h3 {
+  color: black;
+  margin: 30px 0 0 25px;
+  font-size: 25px;
+}
+
+main .third-main .main-card .cards p, main .third-main .main-card .cards h3 {
+  font-size: 16px;
+}
+
+main .third-main .main-card .cards:hover {
+  border: 2px solid #630505;
+}
+
+main .main-four {
+  margin-top: 50px;
+  text-align: center;
+}
+
+main .count {
+  width: 80%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+main .count .count-container {
+  padding: 100px;
+  text-align: center;
+}
+
+main .count .count-container h1, main .count .count-container .third-main .main-card .cards p, main .third-main .main-card .cards .count .count-container p, main .count .count-container .third-main .main-card .cards h3, main .third-main .main-card .cards .count .count-container h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  color: #F6834D;
+}
+/*# sourceMappingURL=style.css.map */
