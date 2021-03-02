@@ -17,6 +17,15 @@ $content-color: #630505;
     font-family: $main-font;
 }
 
+//===============Mixin's===================
+
+@mixin inputstyle {
+    padding: 10px;
+    width: 60%;
+    border: 2px solid $content-color;
+    border-radius: 5px;
+}
+
 //==============Navbar-Setup=============
 
 body {
@@ -101,10 +110,7 @@ nav {
             margin-top: 20px;
 
             input {
-                padding: 10px;
-                width: 60%;
-                border: 2px solid $content-color;
-                border-radius: 5px;
+                @include inputstyle;
             }
 
             button {
@@ -262,5 +268,61 @@ main {
         }
     }
 
+    // ==================Main-Fifth================
 
+    .main-fifth {
+        width: 80%;
+        margin: auto;
+
+        h1 {
+            font-family: $bold-font;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .cities {
+            margin-left: 80px;
+
+            i {
+                font-size: 20px;
+                color: $content-color;
+                border-bottom: 1px solid gray;
+                padding: 20px;
+
+                span {
+                    color: black;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+
+    .main-six {
+        width: 50%;
+        margin-top: 50px;
+        margin: auto;
+        align-content: center;
+
+        .forms {
+            margin: 50px 0 0 70px;
+
+            input {
+                @include inputstyle();
+                padding: 20px;
+            }
+
+            button {
+                @include inputstyle();
+                width: 20%;
+                padding: 20px;
+                background-color: $content-color;
+                color: white;
+            }
+        }
+        p{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 13px;
+        }
+    }
 }

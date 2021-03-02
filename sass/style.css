@@ -249,4 +249,68 @@ main .count .count-container h1, main .count .count-container .third-main .main-
   font-size: 80px;
   color: #F6834D;
 }
+
+main .main-fifth {
+  width: 80%;
+  margin: auto;
+}
+
+main .main-fifth h1, main .main-fifth .third-main .main-card .cards p, main .third-main .main-card .cards .main-fifth p, main .main-fifth .third-main .main-card .cards h3, main .third-main .main-card .cards .main-fifth h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+main .main-fifth .cities {
+  margin-left: 80px;
+}
+
+main .main-fifth .cities i {
+  font-size: 20px;
+  color: #630505;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+
+main .main-fifth .cities i span {
+  color: black;
+  margin-left: 20px;
+}
+
+main .main-six {
+  width: 50%;
+  margin-top: 50px;
+  margin: auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main .main-six .forms {
+  margin: 50px 0 0 70px;
+}
+
+main .main-six .forms input, main .main-six .forms .banner .hero-text form button, .banner .hero-text form main .main-six .forms button {
+  padding: 10px;
+  width: 60%;
+  border: 2px solid #630505;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+main .main-six .forms button {
+  padding: 10px;
+  width: 60%;
+  border: 2px solid #630505;
+  border-radius: 5px;
+  width: 20%;
+  padding: 20px;
+  background-color: #630505;
+  color: white;
+}
+
+main .main-six p, main .main-six .third-main .main-card .cards h3, main .third-main .main-card .cards .main-six h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 13px;
+}
 /*# sourceMappingURL=style.css.map */
