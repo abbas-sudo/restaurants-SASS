@@ -1833,8 +1833,8 @@ nav .navbar ol li:last-child:hover {
 .banner {
   height: 100vh;
   color: white;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/image/hero.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/image/hero.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("../image/hero.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("../image/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
